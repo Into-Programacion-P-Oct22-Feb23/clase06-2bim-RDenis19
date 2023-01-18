@@ -5,8 +5,9 @@
  */
 package ejemplos;
 
-import java.security.SecureRandom;
-// import java.security.*;
+import java.security.SecureRandom;// son para numeros randos osea aleatorios 
+//import java.security.*; // importa todas las clases diponibles en el paquete 
+                           //sin el SecureRandom
 
 /**
  *
@@ -27,7 +28,7 @@ public class Ejemplo01 {
     
     public static int obtenerNumero() {
         // objeto generador de números aleatorios
-        SecureRandom numerosAleatorios = new SecureRandom();
+        SecureRandom numerosAleatorios = new SecureRandom(); // esta es la declaracion de secureRamdom
         
         // Returns a pseudorandom, uniformly distributed int value 
         // between 0 (inclusive) and the specified value (exclusive)
